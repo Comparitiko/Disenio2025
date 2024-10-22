@@ -1,0 +1,20 @@
+body {
+  width: 100dvw;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+  padding: .1rem;
+  table-layout: fixed;
+  empty-cells: hide;
+  border-spacing: 10px;
+}
+
+th {
+  background-color: slategrey;
+}
