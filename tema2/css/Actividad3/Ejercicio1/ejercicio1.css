@@ -1,0 +1,61 @@
+.fp-section {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.fp-section > .div-parrafo {
+  flex-grow: 0;
+  width: 20rem;
+}
+
+.section-parrafo {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-wrap: pretty;
+}
+
+.enlaces {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.enlaces > a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.enlace1 {
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+}
+
+.enlace2 {
+  background-color: white;
+  color: black;
+}
+
+.imagen-container {
+  flex-grow: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#personas-img {
+  height: 75%;
+  border-radius: 15px;
+  aspect-ratio: auto;
+}

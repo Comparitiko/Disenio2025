@@ -1,0 +1,21 @@
+.iconos {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.enlace {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.enlace > img {
+  width: 50px;
+  height: 50px;
+}

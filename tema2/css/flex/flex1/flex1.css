@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  font-size: 2rem;
+  background-color: #ddd;
+  border: 0.2em solid black;
+  margin: 1em;
+}
+
+p {
+  text-align: center;
+  color: white;
+  background-color: darkcyan;
+  border: 0.2em solid darkblue;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.c1 {
+  justify-content: center;
+}
+
+.c2 {
+  justify-content: space-around;
+}
+
+.c3 {
+  justify-content: space-between;
+}
+
+.c4 {
+  justify-content: flex-start;
+}
+
+.c5 {
+  justify-content: flex-end;
+}
+
+.flex-item {
+  padding: .5rem;
+  width: 100px;
+}

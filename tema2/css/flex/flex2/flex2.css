@@ -1,0 +1,51 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  font-size: 2rem;
+  background-color: #ddd;
+  border: 0.2em solid black;
+  margin: 1em;
+}
+
+p {
+  text-align: center;
+  color: white;
+  background-color: darkcyan;
+  border: 0.2em solid darkblue;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  height: 10rem;
+}
+
+.c1 {
+  align-items: center;
+}
+
+.c2 {
+  align-items: baseline;
+}
+
+.c3 {
+  align-items: stretch;
+}
+
+.c4 {
+  align-items: center;
+}
+
+.c5 {
+  align-items: flex-end;
+}
+
+.flex-item {
+  padding: .5rem;
+  width: 100px;
+}
