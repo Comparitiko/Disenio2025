@@ -1,0 +1,18 @@
+button:first-child:hover {
+  background-color: red;
+}
+
+button:first-child:active {
+  background-color: green;
+  color: white;
+}
+
+button:last-child:hover {
+  background-color: blue;
+}
+
+button:last-child:active {
+  background-color: yellow;
+  color: black;
+}
+

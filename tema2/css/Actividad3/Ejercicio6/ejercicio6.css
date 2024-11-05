@@ -1,0 +1,320 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    background-color: #1ed9ff;
+  }
+}
+
+.fp-section {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 75%;
+  margin: 2rem auto;
+  height: fit-content;
+}
+
+.fp-section > .div-parrafo {
+  flex-grow: 0;
+  width: 20rem;
+}
+
+.section-parrafo {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-wrap: pretty;
+}
+
+.enlaces {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.enlaces > a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.enlace1 {
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+}
+
+.enlace2 {
+  background-color: white;
+  color: black;
+}
+
+.img-container {
+  background: url("../imagenes/personas.jpeg") no-repeat right;
+  min-width: 10rem;
+  min-height: 10rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.iconos {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.enlace {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.enlace > img {
+  width: 50px;
+  height: 50px;
+}
+
+.fp-dual {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.video-container {
+  width: 560px;
+  height: 315px;
+}
+
+.iframe-video-porque-dual {
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
+}
+
+.estudia-fp-dual {
+  flex: 1;
+}
+
+.estudia-fp-dual h2 {
+  text-align: center;
+}
+
+.porque-estudiar-dual {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.porque-estudiar-dual-container {
+  display: flex;
+  text-wrap: pretty;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.porque-estudiar-dual-container > div {
+  display: flex;
+  gap: .2rem;
+  flex: 1;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto > strong {
+  font-size: 1rem;
+  font-weight: 700
+}
+
+.texto > p {
+  font-size: .8rem;
+  font-weight: 100;
+}
+
+.estudia-fp-dual img {
+  width: 25px;
+  height: 25px;
+}
+
+.busqueda-alumno-empresa {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.alumno-busca-empresa {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(180deg,#DEEDFF 0%,#72BAFF 100%);
+  min-width: 400px;
+  border-radius: 10px;
+  height: 10rem;
+}
+
+.empresa-busca-alumno {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(75deg,#E4F1F4 0%,#67BDBA 100%);
+  min-width: 400px;
+  border-radius: 10px;
+  height: 10rem;
+}
+
+.text-container-1, .text-container-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.text-container-1 > h2 {
+  width: 75%;
+  text-align: justify;
+  text-wrap: pretty;
+  background-color: dodgerblue;
+}
+
+.text-container-2 > h2 {
+  width: 75%;
+  text-align: justify;
+  text-wrap: pretty;
+  background-color: aqua;
+}
+
+.text-container-1 > a, .text-container-2 > a {
+  width: 75%;
+  text-decoration: underline;
+  color: black;
+}
+
+.alumno-busca-empresa > picture, .empresa-busca-alumno > picture {
+  height: 100%;
+}
+
+.alumno-busca-empresa > picture > img, .empresa-busca-alumno > picture > img {
+  width: 100%;
+  height: 100%;
+}
+
+.noticias {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.noticias > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.noticias > hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 90dvw;
+  margin: 0 auto;
+}
+
+.noticia {
+  display: flex;
+  min-width: 200px;
+  max-width: 300px;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.noticia > picture {
+  margin: 0 auto;
+  min-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.noticia > img {
+  width: auto;
+  height: 100%;
+}
+
+.noticia > p {
+  max-width: 300px;
+}
+
+
+
+
+@media(width <= 750px) {
+  .video-container {
+    width: 100%;
+  }
+
+  .iframe-video-porque-dual {
+    width: 100%;
+  }
+}

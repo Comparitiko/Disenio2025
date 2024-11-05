@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #3f3f3f;
+  width: 100dvw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+     background-color: red;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover > ul {
+  display: block;
+  margin-top: 1rem;
+}
+
+.dropdown > ul > li {
+  list-style: none;
+  width: 100px;
+}
+
+.dropdown > ul > li > a {
+  margin: 0 auto;
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}

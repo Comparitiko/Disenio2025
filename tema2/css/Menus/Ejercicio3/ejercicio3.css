@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+
+  &:hover {
+    background-color: green;
+  }
+}
+
+main {;
+  padding: 1.1rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+section {
+  font-size: 1.1rem;
+}

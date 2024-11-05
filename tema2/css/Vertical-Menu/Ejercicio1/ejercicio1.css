@@ -1,0 +1,28 @@
+menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+}
+
+li {
+  list-style: none;
+  border: 1px solid yellow;
+  width: 100px;
+  background-color: aqua;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #9f9f9f;
+}
+
+a:before {
+  content: "►";
+  color: yellow;
+}

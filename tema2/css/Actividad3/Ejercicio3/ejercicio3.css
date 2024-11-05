@@ -1,0 +1,79 @@
+.fp-dual {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.video-container {
+  width: 560px;
+  height: 315px;
+}
+
+.iframe-video-porque-dual {
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
+}
+
+.estudia-fp-dual {
+  flex: 1;
+}
+
+.estudia-fp-dual h2 {
+  text-align: center;
+}
+
+.porque-estudiar-dual {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.porque-estudiar-dual-container {
+  display: flex;
+  text-wrap: pretty;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.porque-estudiar-dual-container > div {
+  display: flex;
+  gap: .2rem;
+  flex: 1;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto > strong {
+  font-size: 1rem;
+  font-weight: 700
+}
+
+.texto > p {
+  font-size: .8rem;
+  font-weight: 100;
+}
+
+.estudia-fp-dual img {
+  width: 25px;
+  height: 25px;
+}
+
+@media(width <= 750px) {
+  .video-container {
+    width: 100%;
+  }
+
+  .iframe-video-porque-dual {
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ejercicio 1</title>
+  <link rel="stylesheet" href="./ejercicio1.css">
+</head>
+<body>
+<div class="container">
+  <h1>Formulario de Registro</h1>
+  <form action="">
+    <div class="input-container">
+      <label for="nombre"></label>
+      <i class="material-icons input-icon">person</i>
+      <input class="icon-input" type="text" id="nombre" placeholder="Nombre">
+    </div>
+    <div class="input-container">
+      <i class="material-icons input-icon">email</i>
+      <label for="correo"></label>
+      <input class="icon-input" type="email" id="correo" placeholder="Correo Electrónico">
+    </div>
+    <div class="input-container">
+      <i class="material-icons input-icon">lock</i>
+      <label for="contrasenia"></label>
+      <input class="icon-input" type="text" id="contrasenia" placeholder="Contraseña">
+    </div>
+    <div class="input-container">
+      <label for="edad">Edad:</label>
+      <br>
+      <select id="edad">
+        <option value="0" selected>Seleccione su edad</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46+">+46</option>
+      </select>
+    </div>
+    <div class="input-container">
+      <label for="biografia"></label>
+      <i class="material-icons input-icon edit-icon">edit</i>
+      <textarea id="biografia">Biografía</textarea>
+    </div>
+    <input id="submit" type="submit" value="Registrarse">
+  </form>
+</div>
+</body>
+</html>

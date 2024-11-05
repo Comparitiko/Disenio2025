@@ -7,6 +7,7 @@
   padding: 1rem;
   width: 75%;
   margin: 0 auto;
+  height: fit-content;
 }
 
 .fp-section > .div-parrafo {
@@ -46,16 +47,13 @@
   color: black;
 }
 
-.imagen-container {
-  flex-grow: 1.5;
+.img-container {
+  background: url("../imagenes/personas.jpeg") no-repeat right;
+  min-width: 10rem;
+  min-height: 10rem;
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
-
-#personas-img {
-  height: 75%;
-  border-radius: 15px;
-  aspect-ratio: auto;
 }
