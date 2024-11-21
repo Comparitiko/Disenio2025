@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1c2628, #3a86ff);
+  color: white;
+  padding: 2rem;
+}
+
+main {
+  padding: 2rem;
+}

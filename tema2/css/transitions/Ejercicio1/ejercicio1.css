@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container > div {
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#div1 {
+  background-color: red;
+  transition: background-color 1s ease-in-out;
+}
+
+#div1:hover {
+  background-color: blue;
+}
+
+#div2 {
+  background-color: purple;
+  transition: font-size 1s ease-in-out;
+}
+
+#div2:hover {
+  font-size: 20px;
+}
+
+#div3 {
+  background-color: blue;
+  transition: color 1s ease-in-out;
+}
+
+#div3:hover {
+  color: red;
+}
+
+#div4 {
+  display: inline-block;
+  background-color: skyblue;
+  line-height: 1px;
+  --webkit-transition: 1s linear;
+  transition: line-height 2s linear;
+}
+
+#div4:hover {
+  line-height: 90px;
+}
+
+#div5 {
+  background-color: aquamarine;
+  transition: border-radius 1s ease-in-out;
+}
+
+#div5:hover {
+  border-radius: 100%;
+}
+
+#div6 {
+  background-color: yellow;
+  transition: box-shadow 1s ease-in-out;
+}
+
+#div6:hover {
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+#div7 {
+  background-color: orange;
+  transition: opacity 1s ease-in-out;
+}
+
+#div7:hover {
+  opacity: .3;
+}
+
+#div8 {
+  background-color: gray;
+  transition: border 1s ease-in-out;
+}
+
+#div8:hover {
+  border: 10px solid black;
+}
+
+#div9 {
+  background-color: #3f3f3f;
+  transition: margin 1s ease-in-out;
+}
+
+#div9:hover {
+  margin: 20px;
+}
+
+#div10 {
+  background-color: black;
+  transition: padding 1s ease-in-out;
+}
+
+#div10:hover {
+  padding: 20px;
+}
