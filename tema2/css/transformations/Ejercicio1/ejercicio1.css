@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container > div {
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#div1 {
+  background-color: red;
+  transition: 1s ease-in-out;
+}
+
+#div1:hover {
+  scale: .5;
+}
+
+#div2 {
+  background-color: purple;
+  transition: 1s ease-in-out;
+}
+
+#div2:hover {
+  rotate: 20deg;
+}
+
+#div3 {
+  background-color: blue;
+  transition: 1s ease-in-out;
+}
+
+#div3:hover {
+  translate: 100px 200px;
+}
+
+#div4 {
+  background-color: skyblue;
+  --webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+#div4:hover {
+  transform: skew(10deg, 20deg);
+}
+
+#div5 {
+  background-color: aquamarine;
+  transition: 1s ease-in-out;
+}
+
+#div5:hover {
+  transform: skewY(30deg);
+}
+
+#div6 {
+  background-color: yellow;
+  transition: 1s ease-in-out;
+}
+
+#div6:hover {
+  transform: skewX(50deg);
+}
+
+#div7 {
+  background-color: orange;
+  transition: 1s ease-in-out;
+}
+
+#div7:hover {
+  transform: translateX(50px);
+}
+
+#div8 {
+  background-color: gray;
+  transition: 1s ease-in-out;
+}
+
+#div8:hover {
+  transform: translateY(50px);
+}
+
+#div9 {
+  background-color: #3f3f3f;
+  transition: 1s ease-in-out;
+}
+
+#div9:hover {
+  transform: perspective(150px) rotateX(45deg);
+}
+
+#div10 {
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+
+#div10:hover {
+  transform: perspective(150px) rotateY(45deg);
+}
+
+#div11 {
+  background-color: darkblue;
+  transition: 1s ease-in-out;
+}
+
+#div11:hover {
+  transform: matrix(0.5, 0.5, 0.5, 1, 20, -2);
+}

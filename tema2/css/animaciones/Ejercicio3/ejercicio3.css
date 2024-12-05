@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: animarCuadrado 2s ease-in-out infinite;
+}
+
+@keyframes animarCuadrado {
+  0%, 100% {
+    transform: translateX(0);
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+    transform: translateX(50vw);
+  }
+}

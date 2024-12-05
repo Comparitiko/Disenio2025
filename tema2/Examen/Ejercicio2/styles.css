@@ -1,0 +1,259 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-verde: #70A650;
+  --degradado-verde: rgba(51, 126, 3, 0.5);
+  --color-marron: rgb(87, 24, 24);
+}
+
+.container {
+  overflow: hidden;
+  max-width: 100dvw;
+  min-height: 100dvh;
+}
+
+/*Header styles*/
+header {
+  margin-bottom: 1rem;
+  height: fit-content;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.logo-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes img {
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+
+header nav {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+header nav ul li {
+  list-style: none;
+  height: 100%;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  background-color: var(--color-marron);
+  transition: all .3s ease-in-out;
+  border: 1px solid black;
+}
+
+header nav ul li a {
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  background-color: var(--color-verde);
+  border: 1px solid var(--color-verde);
+}
+
+main {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#green-sect {
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(to bottom, var(--color-verde), var(--degradado-verde));
+}
+
+.div-text {
+  flex: 1 1 100px;
+  margin: 0 1rem;
+}
+
+.div-text h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.div-text p {
+  margin: .7rem 0;
+  color: white;
+  font-size: .8rem;
+}
+
+.div-text button {
+  color: white;
+  background-color: var(--color-marron);
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  text-transform: uppercase;
+}
+
+.botones-bajo-der {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.btn-bajo-der {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  margin: 0 5px;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: var(--color-marron);
+}
+
+#cards-sect {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: var(--color-marron);
+  border: 1px solid black;
+  padding: .5rem;
+  color: white;
+  flex: 1 1 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem
+}
+
+.card-main-text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.read-more {
+  color: var(--color-verde);
+  text-transform: uppercase;
+}
+
+#last-sect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#individual-art {
+  flex: 2;
+}
+
+.img-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.img-text img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.texto-ind {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+#contact-art {
+  display: grid;
+  gap: .3rem;
+  flex: 1;
+}
+
+#contact-art h2 {
+  text-align: center;
+}
+
+#contact-art form {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  margin: 0 auto;
+
+}
+
+#contact-art form input, #contact-art form textarea {
+  padding: .5rem;
+}
+
+.btn-div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-div button {
+  background-color: var(--color-marron);
+  color: white;
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links div {
+  width: 1px;
+  height: 10px;
+  background-color: black;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}

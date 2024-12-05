@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.spinner {
+  width: 200px;
+  height: 200px;
+  border: 20px solid gray;
+  border-top: 20px solid deepskyblue;
+  background-color: transparent;
+  border-radius: 100%;
+  animation: animarSpinner 1.5s ease-in-out infinite;
+}
+
+@keyframes animarSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(150deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
